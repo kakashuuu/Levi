@@ -24,7 +24,7 @@ bot(
 bot(
   {
     pattern: 'delsudo ?(.*)',
-    fromMe: true,
+    fromMe: false,
     desc: 'remove replied or mentioned or given num to sudo',
     type: 'vars',
   },
